@@ -311,6 +311,4 @@ function moverCapipepo(){
     pintarPersonaje()
 }
 
-
-
 window.addEventListener('load', iniciarJuego)
