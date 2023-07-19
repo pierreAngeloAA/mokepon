@@ -129,12 +129,25 @@ input:checked +  label {
     background-color: #1A5D1A;
 }
 
-#mapa {
-    border: 2px solid rgb(88, 0, 0);
+#ver-mapa button{
+    width: 180px;
+    height: 40px;
+    border-radius: 20px;
+    background: transparent;
+    border: 2px solid white;
+    color: white;
+    font-family: 'Tilt Prism', cursive;
+    margin-top: 10px 0;
 }
-
-@media (max-width: 360px){
+@media (max-width: 560px){
     .tarjetas, .tarjetas-ataques{
+        flex-direction: column;
+    }
+}
+@media (max-width: 300px){
+    #ver-mapa div{
+        display: flex;
+        align-items: center; 
         flex-direction: column;
     }
 }
